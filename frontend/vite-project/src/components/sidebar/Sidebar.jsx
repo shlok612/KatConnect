@@ -1,0 +1,19 @@
+import Conversations from "./Conversations.jsx";
+import LogOut from "./LogOut.jsx";
+
+import Conversation from "./Conversation.jsx";
+import SearchInput from "./SearchInput.jsx";
+
+const Sidebar=()=>{
+  return (
+    <div className='border-r border-slate-500 p-4 flex flex-col'>
+ 			<SearchInput />
+ 			<div className='divider px-3'></div>
+ 			<Conversations />
+ 			
+      <LogOut />
+ 		</div>
+  )
+}
+
+export default Sidebar;

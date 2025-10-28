@@ -20,6 +20,8 @@
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "daisyui": "^5.3.10",
+    "nodemon": "^3.1.10",
+    "tailwindcss": "^3.4.18"
   }
 }
