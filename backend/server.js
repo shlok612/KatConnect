@@ -1,4 +1,5 @@
 import express from "express";
+
 import cookieParser from "cookie-parser";
 import dotenv from "dotenv";
 import path, { dirname, join } from "path";
@@ -22,7 +23,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // ✅ Correct path to your frontend build
-const frontendPath = join(__dirname, "../frontend/vite-project/dist");
+const frontendPath = path.join(__dirname, "../frontend/vite-project/dist");
 
 // Serve static files from Vite build
 app.use(express.static(frontendPath));
