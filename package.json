@@ -1,11 +1,12 @@
 {
-  "name": "chat-app",
+  "name": "kat-connect",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "server": "nodemon backend/server.js",
     "start": "node backend/server.js",
-    "build": "npm install && npm install --prefix frontend/vite-project && npm run build --prefix frontend/vite-project"
+    "build": "npm install --prefix frontend/vite-project && npm run build --prefix frontend/vite-project"
+
 
   },
   "type": "module",
