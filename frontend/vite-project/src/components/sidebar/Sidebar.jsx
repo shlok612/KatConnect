@@ -1,6 +1,6 @@
 import Conversations from "./Conversations.jsx";
 
-import LogoutButton from "./LogoutButton.jsx";
+
 import Conversation from "./Conversation.jsx";
 import SearchInput from "./SearchInput.jsx";
 
@@ -11,7 +11,7 @@ const Sidebar=()=>{
  			<div className='divider px-3'></div>
  			<Conversations />
  			
-      <LogoutButton /><p className="p-2">Logout ?</p>
+      
  		</div>
   )
 }
