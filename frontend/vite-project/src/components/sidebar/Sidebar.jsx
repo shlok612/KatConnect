@@ -11,7 +11,7 @@ const Sidebar=()=>{
  			<div className='divider px-3'></div>
  			<Conversations />
  			
-      <LogoutButton />
+      <LogoutButton /><p className="p-2">Logout ?</p>
  		</div>
   )
 }
