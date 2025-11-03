@@ -33,9 +33,10 @@ app.use("/api/messages", messageRoutes);
 app.use("/api/users", userRoutes);
 
 // ✅ Catch-all route — safe version
-app.get("*", (req, res) => {
+app.get(/.*/, (req, res) => {
   res.sendFile(join(frontendPath, "index.html"));
 });
+
 
 server.listen(PORT, () => {
   connectToMongo();
