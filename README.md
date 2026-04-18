@@ -2,6 +2,7 @@
 
 A modern real-time chat application built with the **MERN stack** and **Socket.io**, featuring user authentication, instant messaging, and a clean responsive UI.
 
+Do check it out with multiple devices
 
 
 > 🚀 Deployed on [Render] ---->>> https://katconnect.onrender.com/  
